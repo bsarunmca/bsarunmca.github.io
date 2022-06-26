@@ -1,0 +1,41 @@
+.aboutMe {
+    .m-tb-20 {
+        margin: 20px 0;
+    }
+    .content-justify {
+        text-align: justify;
+    }
+    .skill {
+        pointer-events: none;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 700px) {
+    .aboutMe {
+        .row {
+            padding: 0;
+            margin: 0;
+        }
+        &.container {
+            padding: 0;
+            margin: 0;
+            max-width: 100%;
+            width: 100%;
+        }
+        #aboutContent {
+            width: 100%;
+            background-color: #00000073;
+            padding: 0 20px;
+            color: #ffffff;
+            button {
+                color: #ffffff;
+            }
+        }
+        #aboutImg {
+            position: absolute;
+            z-index: -1;
+            padding: 0;
+        }
+    }
+}

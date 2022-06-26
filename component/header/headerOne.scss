@@ -1,0 +1,164 @@
+.headerTemplateOne {
+    a,
+    a:hover {
+        text-decoration: none;
+    }
+    .header {
+        background-color: #090b10;
+        color: #ffffff;
+        &.nav {
+            height: 100%;
+            position: fixed;
+            width: 80px;
+            transition: 0.5s;
+            // z-index: 2;
+        }
+        &.nav-full {
+            width: 240px;
+            li.toggleIcon {
+                .fontAwesomeIcon {
+                    -moz-transform: none;
+                    -webkit-transform: none;
+                    -o-transform: none;
+                    transform: none;
+                    -ms-filter: fliph;
+                    /*IE*/
+                    filter: fliph;
+                    /*IE*/
+                }
+            }
+        }
+        ul {
+            width: 100%;
+            padding: 0;
+            list-style: none;
+            li {
+                overflow-x: hidden;
+                .link {
+                    cursor: pointer;
+                    padding: 10px;
+                    padding-left: 30px;
+                    white-space: nowrap;
+                    text-align: left;
+                    position: relative;
+                    width: 100%;
+                    display: inline-block;
+                    span {
+                        padding-left: 24px;
+                    }
+                }
+                .selected {
+                    font-weight: bold;
+                    color: #4fa4ff;
+                }
+                &:not(.toggleIcon):hover {
+                    background-color: rgba(255, 255, 255, 0.08);
+                    transition: 0.3s;
+                }
+                .fontAwesomeIcon {
+                    width: 24px;
+                    height: 24px;
+                }
+                /* unvisited link */
+                a {
+                    color: #ffffff;
+                }
+            }
+            li.toggleIcon {
+                .logo {
+                    cursor: pointer;
+                    padding-bottom: 20px;
+                    padding-top: 30px;
+                    padding-right: 25px;
+                    white-space: nowrap;
+                    text-align: left;
+                    position: relative;
+                    display: inline-block;
+                    float: right;
+                }
+                .fontAwesomeIcon {
+                    -moz-transform: scaleX(-1);
+                    -webkit-transform: scaleX(-1);
+                    -o-transform: scaleX(-1);
+                    transform: scaleX(-1);
+                    -ms-filter: fliph;
+                    /*IE*/
+                    filter: fliph;
+                    /*IE*/
+                }
+            }
+        }
+    }
+    .mainContainer {
+        width: calc(100% - 80px);
+        transition: 0.5s;
+        float: right;
+        min-height: 100vh;
+        position: relative;
+        &.menuOpen {
+            width: calc(100% - 240px);
+        }
+        .body-cointainer {
+            // height: calc(100vh - 70px);
+            height: 100vh;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .headerTemplateOne {
+        //     .hide-sm-size {
+        //         display: none;
+        //     }
+        .mainContainer {
+            width: 100%;
+            &.menuOpen {
+                width: 100%;
+            }
+        }
+        .header {
+            &.nav {
+                overflow: hidden;
+                height: 60px;
+                width: 60px;
+                z-index: 999;
+                right: 0;
+            }
+            &.nav-full {
+                height: 295px;
+                width: 60px;
+                li.toggleIcon {
+                    .fontAwesomeIcon {
+                        -moz-transform: rotate(-90deg);
+                        -webkit-transform: rotate(-90deg);
+                        -o-transform: rotate(-90deg);
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+            ul {
+                li {
+                    .link {
+                        padding-left: 17px;
+                    }
+                }
+                li.toggleIcon {
+                    .logo {
+                        padding: 20px;
+                    }
+                    .fontAwesomeIcon {
+                        -moz-transform: none;
+                        -webkit-transform: none;
+                        -o-transform: none;
+                        transform: none;
+                        -ms-filter: fliph;
+                        /*IE*/
+                        filter: fliph;
+                        /*IE*/
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

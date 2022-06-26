@@ -1,0 +1,54 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../images/fullContentBG.jpg");
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    .leftCointainer {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        .content {
+            padding: 20px;
+            // background-color: #b7bfcd70;
+            z-index: 1;
+            // color: #fff;
+        }
+    }
+}
+
+.full-width {
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    .logoA {
+        width: 40%;
+        height: 100%;
+        font-size: 100%;
+        float: left;
+    }
+    .logoR {
+        width: 60%;
+        height: 100%;
+        float: left;
+        .logoAinmation {
+            width: 100%;
+            height: 70%;
+            position: relative;
+        }
+        .logoRun {
+            width: 100%;
+            height: 30%;
+            font-size: 25vw;
+        }
+    }
+}

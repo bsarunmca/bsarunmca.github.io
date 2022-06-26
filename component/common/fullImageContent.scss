@@ -1,0 +1,47 @@
+#fullImageContent {
+    .imageContainer {
+        width: 100%;
+        min-height: 100vh;
+        background-image: url('../../images/dev.png');
+        position: relative;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content {
+            padding: 20px;
+            // background-color: #b7bfcd70;
+            z-index: 1;
+            color: #fff;
+        }
+    }
+    .imgOverLay {
+        opacity: 0.6;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+    }
+    .runLogo {
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        right: 0;
+    }
+    .email {
+        padding-left: 5px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 500px) {
+    #fullImageContent {
+        .imageContainer {
+            background-size: auto 90%;
+        }
+    }
+}
