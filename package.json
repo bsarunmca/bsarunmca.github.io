@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
-    "homepage": "http://{Github-username}.github.io/{Github-repo-name}",
+    "homepage": "http://{Github-username}.github.io/",
     "scripts": {
         "start": "webpack-dev-server --open",
         "predeploy": "npm run build",
