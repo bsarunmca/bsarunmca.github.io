@@ -1,0 +1,43 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "webpack && cp build/index.html build/404.html"
+    },
+    "author": "@run",
+    "license": "ISC",
+    "dependencies": {
+        "gh-pages": "^4.0.0",
+        "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/preset-react": "^7.10.1",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.5.3",
+        "html-webpack-plugin": "^4.3.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.28",
+        "@fortawesome/free-brands-svg-icons": "^5.13.0",
+        "@fortawesome/free-solid-svg-icons": "^5.13.0",
+        "@fortawesome/react-fontawesome": "^0.1.10",
+        "bootstrap": "^4.5.0",
+        "file-loader": "^6.0.0",
+        "node-sass": "^4.14.1",
+        "react": "^16.13.1",
+        "react-bootstrap": "^1.0.1",
+        "react-dom": "^16.13.1",
+        "url-loader": "^4.1.0",
+        "sass": "^1.26.8",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.2.1"
+    }
+}

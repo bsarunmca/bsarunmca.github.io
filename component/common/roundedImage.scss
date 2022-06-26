@@ -1,0 +1,58 @@
+.roundedCircle {
+	background-image: url("../../images/aboutImage.png");
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: 100vh;
+	// margin-top: 50px;
+	// border-radius: 50%;
+	// border-radius: 50% 50% 20px 20px;
+	// box-shadow: 3px 3px 20px 0px #00000078;
+}
+
+// // Extra small devices (portrait phones, less than 576px)
+// @media (max-width: 575.98px) {
+// 	.roundedCircle {
+// 		width: 150px;
+// 		height: 150px;
+// 	}
+// }
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) and (max-width: 767.98px) {
+// 	.roundedCircle {
+// 		width: 250px;
+// 		height: 250px;
+// 	}
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) and (max-width: 991.98px) {
+// 	.roundedCircle {
+// 		width: 350px;
+// 		height: 350px;
+// 	}
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1199.98px) {
+// 	.roundedCircle {
+// 		width: 450px;
+// 		height: 450px;
+// 	}
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// 	.roundedCircle {
+// 		width: 350px;
+// 		height: 350px;
+// 	}
+// }

@@ -1,0 +1,51 @@
+.skils {
+    .progressBar {
+        height: 35px;
+        // border: 1px solid #333333;
+        // border-radius: 5px;
+        // padding: 0px;
+        // margin-left: 15px;
+        // background: linear-gradient(to left; green 10%; #322348 90%);
+        position: relative;
+    }
+    .pading-top-bottom {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .per {
+        padding: 0;
+    }
+    .no-mar-pad {
+        padding: 0;
+        margin: 0;
+    }
+    .pading-top {
+        padding-top: 2rem;
+    }
+    .card-top-bottom {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .progress-bar {
+        height: 100%;
+        display: inline-block;
+        transition: 0.4s linear;
+        transition-property: width;
+        animation: expandWidth 6s;
+        background-color: #4fa4ff;
+    }
+    .border-top {
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .progress-bar-run {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        animation: expandWidth 6s;
+    }
+    @keyframes expandWidth {
+        0% {
+            width: 0;
+        }
+    }
+}
