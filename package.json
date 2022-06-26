@@ -8,7 +8,7 @@
         "start": "webpack-dev-server --open",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "build": "webpack && cp build/index.html build/404.html"
+        "build": "webpack"
     },
     "author": "@run",
     "license": "ISC",
