@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
-    "homepage": "http://bsarunmca.github.io/dist/inde.html",
+    "homepage": "http://bsarunmca.github.io/",
     "scripts": {
         "start": "webpack-dev-server --open",
         "predeploy": "npm run build",
