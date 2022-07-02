@@ -3,11 +3,11 @@
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
-    "homepage": "http://bsarunmca.github.io/dist",
+    "homepage": "http://bsarunmca.github.io/resume",
     "scripts": {
         "start": "webpack-dev-server --open",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
+        "deploy": "gh-pages -d resume",
         "build": "webpack"
     },
     "author": "@run",
