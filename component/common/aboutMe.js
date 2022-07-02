@@ -38,7 +38,7 @@ function AboutMe(props) {
                                 Developer based in Bengaluru, India.{' '}
                             </h5>
                             I love <FontAwesomeIcon icon={'heart'} /> to develop
-                            web application, websites and also designing.I have
+                            web application, websites and also designing. I have
                             7 + years of experience in front - end.{' '}
                             <FontAwesomeIcon icon={'laptop-code'} />{' '}
                         </div>{' '}
@@ -62,23 +62,23 @@ function AboutMe(props) {
                             })}{' '}
                         </p>{' '}
                         {/* <p>
-                                    Read <FontAwesomeIcon icon={"book-reader"} /> more about me...
-                                    </p>
-                                    <Button
-                                    variant="outline-info"
-                                    className=" mr-3"
-                                    onClick={() => props.navPage("skills")}
-                                    >
-                                    <FontAwesomeIcon icon={"graduation-cap"} />
-                                    Education & Skills
-                                    </Button>
-                                    <Button
-                                    variant="outline-info"
-                                    className="mr-3"
-                                    onClick={() => props.navPage("experience")}
-                                    >
-                                    <FontAwesomeIcon icon={"shoe-prints"} /> Experience
-                                    </Button> */}{' '}
+                                                Read <FontAwesomeIcon icon={"book-reader"} /> more about me...
+                                                </p>
+                                                <Button
+                                                variant="outline-info"
+                                                className=" mr-3"
+                                                onClick={() => props.navPage("skills")}
+                                                >
+                                                <FontAwesomeIcon icon={"graduation-cap"} />
+                                                Education & Skills
+                                                </Button>
+                                                <Button
+                                                variant="outline-info"
+                                                className="mr-3"
+                                                onClick={() => props.navPage("experience")}
+                                                >
+                                                <FontAwesomeIcon icon={"shoe-prints"} /> Experience
+                                                </Button> */}{' '}
                     </div>{' '}
                 </div>{' '}
                 <div
