@@ -100,7 +100,7 @@ const HeaderOne = () => {
                                                               href="mailto:bsarunmca@gmail.com?Subject=FromMyWebSite"
                                                               data-text="bsarunmca@gmail.com"
                                                             > */}{' '}
-                            <NavLink
+                            {/* <NavLink
                                 onClick={() => setMenuToggle(false)}
                                 exact
                                 className="link"
@@ -112,7 +112,7 @@ const HeaderOne = () => {
                                     className="fontAwesomeIcon align-middle"
                                 />
                                 <span> Contact </span>{' '}
-                            </NavLink>{' '}
+                            </NavLink>{' '} */}
                         </li>{' '}
                         {/* <li>
                                                     <NavLink
