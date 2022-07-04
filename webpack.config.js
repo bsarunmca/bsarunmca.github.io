@@ -9,8 +9,8 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'resume/'),
-        publicPath: '/resume/',
+        path: path.resolve(__dirname, 'portfolio/'),
+        publicPath: '/portfolio/',
     },
     plugins: [
         new HtmlWebpackPlugin({

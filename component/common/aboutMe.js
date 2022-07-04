@@ -39,7 +39,7 @@ function AboutMe(props) {
                             </h5>
                             I love <FontAwesomeIcon icon={'heart'} /> to develop
                             web application, websites and also designing. I have
-                            7 + years of experience in front - end.{' '}
+                            7+ years of experience in front - end.{' '}
                             <FontAwesomeIcon icon={'laptop-code'} />{' '}
                         </div>{' '}
                         <p className=" m-tb-15">

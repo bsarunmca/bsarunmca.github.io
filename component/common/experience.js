@@ -96,7 +96,7 @@ function Experience() {
                             <div className="timeline-image">
                                 <h4>
                                     {' '}
-                                    {exp.yearFrom} <br /> - <br /> {exp.yearTo}
+                                    {exp.yearFrom} <br /> - <br /> {exp.yearTo}{' '}
                                 </h4>{' '}
                             </div>{' '}
                             <div className="timeline-panel">
@@ -119,7 +119,7 @@ function Experience() {
                                             </h5>{' '}
                                             <p>
                                                 <span className="sub-heading">
-                                                    Environment:{' '}
+                                                    Tech stack:{' '}
                                                 </span>{' '}
                                                 {pro.environment}{' '}
                                             </p>{' '}
@@ -135,14 +135,14 @@ function Experience() {
                             </div>{' '}
                         </li>
                     );
-                })}
+                })}{' '}
                 {/* <li className="timeline-inverted">
-                    <div className="timeline-image">
-                        <div className="run-img">
-                            <Run />
-                        </div>{' '}
-                    </div>{' '}
-                </li>{' '} */}
+                                <div className="timeline-image">
+                                    <div className="run-img">
+                                        <Run />
+                                    </div>{' '}
+                                </div>{' '}
+                            </li>{' '} */}{' '}
             </ul>{' '}
         </Container>
     );
