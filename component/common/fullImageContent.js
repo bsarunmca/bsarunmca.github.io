@@ -15,7 +15,7 @@ function FullImageContent() {
                     <Badge variant="primary">
                         <h5> Hello i 'm</h5>
                     </Badge>
-                    <h1> Arun BS </h1> <h3> I build things for the web </h3>
+                    <h1> Arun BS </h1> <h3> I build things for the web. </h3>
                     <p>
                         <FontAwesomeIcon icon={faEnvelope} />
                         <label className="email"> bsarunmca@gmail.com </label>
