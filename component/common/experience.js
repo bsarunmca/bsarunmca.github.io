@@ -71,7 +71,7 @@ function Experience() {
             role: 'Software Engineer III',
             project: [
                 {
-                    title: 'Money Moment',
+                    title: 'Money Movement',
                     environment: `ReactJS, Redux, GCP, Webpack, HTML5, CSS3, JavaScript, JSON, MUI, GIT, etc...`,
                     description: `NCR Digital Banking is a provider of online banking software to banks and 
                     credit unions. My role and responsibility is to lead a team and develop UI for 'US' banking 
@@ -137,12 +137,12 @@ function Experience() {
                     );
                 })}{' '}
                 {/* <li className="timeline-inverted">
-                                <div className="timeline-image">
-                                    <div className="run-img">
-                                        <Run />
-                                    </div>{' '}
-                                </div>{' '}
-                            </li>{' '} */}{' '}
+                                            <div className="timeline-image">
+                                                <div className="run-img">
+                                                    <Run />
+                                                </div>{' '}
+                                            </div>{' '}
+                                        </li>{' '} */}{' '}
             </ul>{' '}
         </Container>
     );
