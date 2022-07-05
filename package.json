@@ -7,7 +7,7 @@
     "scripts": {
         "start": "webpack-dev-server --open",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d portfolio",
+        "deploy": "gh-pages -d build",
         "build": "webpack"
     },
     "author": "@run",
