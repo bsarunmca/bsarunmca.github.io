@@ -45,7 +45,7 @@ function Experience() {
         },
         {
             yearFrom: 'Nov 2017',
-            yearTo: 'Dec 2019',
+            yearTo: 'Dec 2020',
             company: 'Toshiba Software India Private Limted',
             role: 'Senior Software Engineer',
             project: [
@@ -65,7 +65,7 @@ function Experience() {
             ],
         },
         {
-            yearFrom: 'Dec 2019',
+            yearFrom: 'Dec 2020',
             yearTo: 'Current',
             company: 'NCR Corporation',
             role: 'Software Engineer III',
