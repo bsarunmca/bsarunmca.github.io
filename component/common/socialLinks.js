@@ -35,7 +35,7 @@ function SocialLinks() {
             })}
             {console.log(process.env.PUBLIC_URL, process, process.env)}
             <Button
-                href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                href={`./resume.pdf`}
                 variant="outline-light"
                 className="rounded-circle mr-2"
                 target="_blank"
