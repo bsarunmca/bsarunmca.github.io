@@ -8,6 +8,7 @@ import AboutMe from '../common/aboutMe';
 import Skills from '../common/skills';
 // import Run from "../common/run";
 import Experience from '../common/experience';
+// import Resume from '../resume/Resume';
 import {
     HashRouter as Router,
     Switch,
@@ -31,8 +32,8 @@ const HeaderOne = () => {
                                     icon="outdent"
                                     className="fontAwesomeIcon align-middle"
                                 />
-                            </div>{' '}
-                        </li>{' '}
+                            </div>
+                        </li>
                         <li className="firstSelectionIcon">
                             <NavLink
                                 onClick={() => setMenuToggle(false)}
@@ -45,9 +46,9 @@ const HeaderOne = () => {
                                     icon="home"
                                     className="fontAwesomeIcon align-middle"
                                 />
-                                <span> Home </span>{' '}
-                            </NavLink>{' '}
-                        </li>{' '}
+                                <span> Home </span>
+                            </NavLink>
+                        </li>
                         <li>
                             <NavLink
                                 onClick={() => setMenuToggle(false)}
@@ -60,9 +61,9 @@ const HeaderOne = () => {
                                     icon="user"
                                     className="fontAwesomeIcon align-middle"
                                 />
-                                <span> About me </span>{' '}
-                            </NavLink>{' '}
-                        </li>{' '}
+                                <span> About me </span>
+                            </NavLink>
+                        </li>
                         <li>
                             <NavLink
                                 onClick={() => setMenuToggle(false)}
@@ -75,9 +76,9 @@ const HeaderOne = () => {
                                     icon="graduation-cap"
                                     className="fontAwesomeIcon align-middle"
                                 />
-                                <span> Education & Skills </span>{' '}
-                            </NavLink>{' '}
-                        </li>{' '}
+                                <span> Education & Skills </span>
+                            </NavLink>
+                        </li>
                         <li>
                             <NavLink
                                 onClick={() => setMenuToggle(false)}
@@ -90,47 +91,11 @@ const HeaderOne = () => {
                                     icon="shoe-prints"
                                     className="fontAwesomeIcon align-middle"
                                 />
-                                <span> Experience </span>{' '}
-                            </NavLink>{' '}
-                        </li>{' '}
-                        <li>
-                            {' '}
-                            {/* <a
-                                                              className="email"
-                                                              href="mailto:bsarunmca@gmail.com?Subject=FromMyWebSite"
-                                                              data-text="bsarunmca@gmail.com"
-                                                            > */}{' '}
-                            {/* <NavLink
-                                onClick={() => setMenuToggle(false)}
-                                exact
-                                className="link"
-                                activeClassName="selected"
-                                to="/contact"
-                            >
-                                <FontAwesomeIcon
-                                    icon="handshake"
-                                    className="fontAwesomeIcon align-middle"
-                                />
-                                <span> Contact </span>{' '}
-                            </NavLink>{' '} */}
-                        </li>{' '}
-                        {/* <li>
-                                                    <NavLink
-                                                        onClick={() => setMenuToggle(false)}
-                                                        exact
-                                                        className="link"
-                                                        activeClassName="selected"
-                                                        to="/vaccination"
-                                                    >
-                                                        <FontAwesomeIcon
-                                                            icon="heartbeat"
-                                                            className="fontAwesomeIcon align-middle"
-                                                        />
-                                                        <span> Vaccination </span>
-                                                    </NavLink>
-                                                </li> */}{' '}
-                    </ul>{' '}
-                </div>{' '}
+                                <span> Experience </span>
+                            </NavLink>
+                        </li>
+                    </ul>
+                </div>
                 <div
                     className={`mainContainer ${menuToggle ? 'menuOpen' : ''}`}
                 >
@@ -140,31 +105,22 @@ const HeaderOne = () => {
                                 exact
                                 path="/"
                                 component={FullImageContent}
-                            />{' '}
-                            <Route exact path="/about" component={AboutMe} />{' '}
-                            <Route exact path="/skills" component={Skills} />{' '}
+                            />
+                            <Route exact path="/about" component={AboutMe} />
+                            <Route exact path="/skills" component={Skills} />
                             <Route
                                 exact
                                 path="/experience"
                                 component={Experience}
-                            />{' '}
-                            <Route exact path="/contact" component={Contact} />{' '}
-                            {/* <Route
-                                                        exact
-                                                        path="/vaccination"
-                                                        component={Vaccination}
-                                                    /> */}{' '}
+                            />
                             <Route path="*">
                                 <FullImageContent />
-                            </Route>{' '}
-                        </Switch>{' '}
-                    </div>{' '}
-                </div>{' '}
-            </div>{' '}
+                            </Route>
+                        </Switch>
+                    </div>
+                </div>
+            </div>
         </Router>
     );
-};
-const Vaccination = function () {
-    return <div> Hello heartbeat </div>;
 };
 export default HeaderOne;

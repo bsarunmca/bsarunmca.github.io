@@ -1,7 +1,7 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-    entry: './main.js',
+    entry: './main.jsx',
     devServer: {
         historyApiFallback: {
             disableDotRule: true,
@@ -18,9 +18,16 @@ module.exports = {
         }),
     ],
     module: {
-        rules: [
-            { test: /\.(js)$/, exclude: /node_modules/, use: 'babel-loader' },
-            { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+        rules: [{
+                test: /\.(js|jsx)$/, // Match both .js and .jsx files
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader', // Use babel-loader for transpiling JSX to JavaScript
+                    options: {
+                        presets: ['@babel/preset-env', '@babel/preset-react'], // Include presets for React and environment
+                    },
+                },
+            },
             {
                 test: /\.s[ac]ss$/i,
                 use: [
@@ -40,6 +47,9 @@ module.exports = {
                 loader: 'url-loader?limit=100000',
             },
         ],
+    },
+    resolve: {
+        extensions: ['.js', '.jsx'], // File extensions to resolve
     },
     mode: 'development',
 };

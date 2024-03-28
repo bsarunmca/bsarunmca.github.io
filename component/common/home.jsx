@@ -6,6 +6,7 @@ import { faEnvelope, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import { Badge } from 'react-bootstrap';
 import SocialLinks from './socialLinks';
 import Run from './run';
+import constants from '../../constant/constants';
 
 function Home() {
     return (
@@ -16,7 +17,7 @@ function Home() {
                         <Badge variant="primary">
                             <h5> Hello i 'm</h5>
                         </Badge>
-                        <h1> Arun BS </h1> <h3> Web Developer </h3>
+                        <h1> {constants.name} </h1> <h3> Web Developer </h3>
                         <p>
                             <FontAwesomeIcon icon={faEnvelope} />
                             <label type="email"> bsarunmca @gmail.com </label>

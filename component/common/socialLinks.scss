@@ -4,4 +4,15 @@
         outline: none !important;
         box-shadow: none;
     }
+    .printResume {
+        position: absolute;
+        bottom: 100000000px;
+    }
+    /* override styles when printing */
+    @media print {
+        .printResume {
+            position: relative;
+            bottom: auto;
+        }
+    }
 }
