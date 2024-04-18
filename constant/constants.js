@@ -145,6 +145,7 @@ export default {
                 `Deployed containerized applications using Docker and Kubernetes on GKE clusters, using Kubernetes manifests and Helm charts to Automate configuration management and rollback strategies using Argo CD.`,
                 `Designed and configured CI/CD pipelines using GitHub CI/CD to automate code integration, testing, and deployment across multiple environments.`,
                 `Conducted code reviews and provided constructive feedback to improve code quality.`,
+                `Experienced in implementing server-side rendering (SSR) for React.js applications, enhancing performance, and user experience.`,
                 `Participated in Agile scrum meetings to track project progress and prioritize tasks.`,
             ],
         },
