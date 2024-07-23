@@ -18,6 +18,11 @@ export default {
         },
     ],
     skills: [{
+            name: 'JavaScript, ES6 and latest',
+            per: '90',
+        },
+        { name: 'TypeScript', per: '75' },
+        {
             name: 'React JS',
             per: '80',
         },
@@ -26,15 +31,13 @@ export default {
             per: '60',
         },
         {
-            name: 'Node',
-            per: '60',
+            name: 'Redux',
+            per: '75',
         },
-        { name: 'TypeScript', per: '75' },
         {
-            name: 'JavaScript, ES6 and latest',
+            name: 'jQuery',
             per: '90',
         },
-
         {
             name: 'HTML, HTML5',
             per: '90',
@@ -46,14 +49,6 @@ export default {
         {
             name: 'MUI, Bootstrap',
             per: '85',
-        },
-        {
-            name: 'Redux',
-            per: '75',
-        },
-        {
-            name: 'jQuery',
-            per: '90',
         },
         {
             name: 'Git, GitHub',
@@ -139,12 +134,12 @@ export default {
             company: 'NCR Corporation',
             role: 'Software Engineer IV',
 
-            responsibility: `As the UI Lead, Responsible for developing and work closely with peers and senior engineers/architects to deliver the optimal product, 
+            responsibility: `As the UI Lead, Responsible for developing and maintaining web applications for banking, 
             focusing on front-end and back-end(BFF) development. 
             I oversee the design and development of user interfaces for web and mobile applications, 
             ensuring high-quality user experiences that align with business objectives.`,
-            environment: `ReactJS, Redux, NestJS, Node, Typescript, JavaScript, HTML5, CSS3, GCP, Docker, Kubernetes, ArgoCD, GitHub, Jest, Webpack, monorepo, monolith,
-                JSON, MUI, GIT, etc...`,
+            environment: `NestJS, ReactJS, Redux, GCP, Docker, Kubernetes, ArgoCD, GitHub, Jest, Webpack, monorepo, monolith,
+            HTML5, CSS3, JavaScript, JSON, MUI, GIT, etc...`,
             keyResponsibilities: [
                 `Developed and implemented new features and functionalities for banking applications [Payment, Template, Contacts, and Report module, etc...]`,
                 `Deployed containerized applications using Docker and Kubernetes on GKE clusters, using Kubernetes manifests and Helm charts to Automate configuration management and rollback strategies using Argo CD.`,
