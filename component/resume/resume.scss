@@ -13,13 +13,13 @@
             min-width: 992px;
             margin: auto;
             background-color: #fff;
-            padding: 20px;
+            padding: 10px;
             border-radius: 8px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             display: flex;
         }
         .left-column {
-            width: 35%;
+            width: 30%;
         }
         .right-column {
             width: 65%;
@@ -71,6 +71,18 @@
         }
         .skills-list li {
             width: 50%;
+        }
+        .noMr {
+            margin: 0px !important;
+        }
+        .pb-0 {
+            padding-bottom: 0px !important;
+        }
+        p {
+            margin-bottom: 0.5rem;
+        }
+        .pr-10 {
+            padding-right: 10px;
         }
         /* Updated styles for font and color */
         body,

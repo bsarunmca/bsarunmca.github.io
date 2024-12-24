@@ -10,7 +10,7 @@ function Experience() {
         <Container className="newPage fullSize experience">
             <h3 className="align-center pading-top"> Experience </h3>
             <ul className="timeline pading-top-bottom">
-                {expDetails.reverse().map((exp, index) => {
+                {expDetails.map((exp, index) => {
                     return (
                         <li
                             key={index}

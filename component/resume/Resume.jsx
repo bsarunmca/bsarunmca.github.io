@@ -69,7 +69,7 @@ function Resume() {
                             <div className="details">
                                 <ul className="skills-list">
                                     {constants.skills.map((skill) => (
-                                        <li>{skill.name}</li>
+                                        <li className="pr-10">{skill.name}</li>
                                     ))}
                                 </ul>
                             </div>
@@ -92,22 +92,22 @@ function Resume() {
                         </div>
                     </div>
                     <div className="right-column">
-                        <div className="section">
-                            <div className="details">
-                                <p>{constants.objective}</p>
+                        <div className="section pb-0">
+                            <div className="details noMr">
+                                <p className="noMr">{constants.objective}</p>
                             </div>
                         </div>
                         <div className="section">
                             <h3 className="section-title">Experience</h3>
-                            {constants.expDetails.reverse().map((exp) => {
+                            {expDetails.map((exp) => {
                                 return (
                                     <div className="details mb-20">
                                         <p>
-                                            <strong>{exp.role}</strong>
-                                            <br />
+                                            {/* <strong>{exp.role}</strong>
+                                            <br /> */}
                                             <strong>
                                                 <i>
-                                                    {exp.company} |{' '}
+                                                    {exp.company} | {exp.role} |{' '}
                                                     {exp.yearFrom} -{' '}
                                                     {exp.yearTo}
                                                 </i>
@@ -123,7 +123,9 @@ function Resume() {
                                             <ul>
                                                 {exp.keyResponsibilities.map(
                                                     (point) => (
-                                                        <li>{point}</li>
+                                                        <li className="noMr">
+                                                            {point}
+                                                        </li>
                                                     ),
                                                 )}
                                             </ul>

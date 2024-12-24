@@ -8,7 +8,7 @@ import AboutMe from '../common/aboutMe';
 import Skills from '../common/skills';
 // import Run from "../common/run";
 import Experience from '../common/experience';
-// import Resume from '../resume/Resume';
+import Resume from '../resume/Resume';
 import {
     HashRouter as Router,
     Switch,
@@ -108,6 +108,7 @@ const HeaderOne = () => {
                             />
                             <Route exact path="/about" component={AboutMe} />
                             <Route exact path="/skills" component={Skills} />
+                            <Route exact path="/resume" component={Resume} />
                             <Route
                                 exact
                                 path="/experience"
