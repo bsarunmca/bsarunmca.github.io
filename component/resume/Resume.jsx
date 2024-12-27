@@ -103,11 +103,11 @@ function Resume() {
                                 return (
                                     <div className="details mb-20">
                                         <p>
-                                            {/* <strong>{exp.role}</strong>
-                                            <br /> */}
+                                            <strong>{exp.role}</strong>
+                                            <br />
                                             <strong>
                                                 <i>
-                                                    {exp.company} | {exp.role} |{' '}
+                                                    {exp.company} |{' '}
                                                     {exp.yearFrom} -{' '}
                                                     {exp.yearTo}
                                                 </i>
@@ -123,7 +123,7 @@ function Resume() {
                                             <ul>
                                                 {exp.keyResponsibilities.map(
                                                     (point) => (
-                                                        <li className="noMr">
+                                                        <li className="noMr li-circle">
                                                             {point}
                                                         </li>
                                                     ),

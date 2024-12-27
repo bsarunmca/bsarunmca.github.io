@@ -4,25 +4,10 @@ import RoundedImage from './roundedImage';
 import './aboutMe.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import constants from '../../constant/constants';
+import Run from './run';
+import SocialLinks from './socialLinks';
 
 function AboutMe(props) {
-    const skills = [
-        'JavaScript',
-        'React Js',
-        'Redux',
-        'HTML 5',
-        'CSS 3',
-        'JSON',
-        'MUI',
-        'Bootstrap',
-        'Webpack',
-        'GCP',
-        'Performance',
-        'development',
-        'jQuery',
-        'Agile',
-        'Debugging',
-    ];
     return (
         <Container className="newPage fullSize aboutMe">
             <Row>
@@ -31,20 +16,36 @@ function AboutMe(props) {
                     className="col-md-6 col-sx-12 font-roboto d-flex align-content-center flex-wrap fullSize order-sx-2 order-sm-2 order-md-1"
                 >
                     <div>
-                        <h3 className="font-roboto"> About me </h3>
+                        {/* <h3 className="font-roboto"> About me </h3> */}
                         <div className="content-justify  m-tb-15">
+                            <Badge variant="primary">
+                                <h2 className="noMr"> Hello i 'm</h2>
+                            </Badge>
+                            <div className="nameLogo">
+                                <div className="nameLogo-A">A</div>
+                                <div className="nameLogo-run">
+                                    <div className="runner-logo">
+                                        <Run />
+                                    </div>
+                                    <div className="run-txt">run</div>
+                                </div>
+                                <div className="nameLogo-BS">BS</div>
+                            </div>
                             <h5>
-                                Hello! I build things on the Internet
+                                I build things on the Internet{' '}
                                 <FontAwesomeIcon icon={'globe-asia'} /> as a Web
                                 Developer based in Bengaluru, India.
                             </h5>
-                            I love <FontAwesomeIcon icon={'heart'} /> to develop
-                            web application, websites and also designing.
+                            I specialize in developing web applications,
+                            websites, and UI/UX design. I’m passionate about
+                            creating seamless and dynamic user experiences using
+                            modern web technologies.{' '}
                             <FontAwesomeIcon icon={'laptop-code'} />
                         </div>
                         <p className=" m-tb-15">
-                            I like to travel on my
-                            <FontAwesomeIcon icon={'biking'} />
+                            When I'm not coding, I enjoy traveling{' '}
+                            <FontAwesomeIcon icon={'biking'} /> and exploring
+                            new places.
                         </p>
                         <p> Also I am good at </p>
                         <p className=" m-tb-15">
@@ -60,8 +61,14 @@ function AboutMe(props) {
                                 );
                             })}
                         </p>
+
+                        <p>To know more about me: </p>
+                        <div className="invert">
+                            <SocialLinks />
+                        </div>
+
                         <p className=" m-tb-15">
-                            Contact me @
+                            Email:{' '}
                             <a
                                 className="email btn-outline-info"
                                 href="mailto:bsarunmca@gmail.com?Subject=FromMyWebSite"

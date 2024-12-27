@@ -1,8 +1,16 @@
 #social_link {
-    color: #fff;
-    .btn:focus {
-        outline: none !important;
-        box-shadow: none;
+    .link-btn {
+        color: #fff;
+        p {
+            color: #000;
+            display: none;
+        }
+        .btn:focus {
+            outline: none !important;
+            box-shadow: none;
+        }
+        display: flex;
+        flex-direction: row;
     }
     .printResume {
         position: absolute;
@@ -13,6 +21,17 @@
         .printResume {
             position: relative;
             bottom: auto;
+        }
+    }
+    @media (max-width: 700px) {
+        .link-btn {
+            place-content: space-around;
+            p {
+                display: block;
+            }
+            div {
+                text-align: center;
+            }
         }
     }
 }

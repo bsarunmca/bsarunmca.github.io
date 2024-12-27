@@ -2,7 +2,12 @@ export default {
     name: 'Arun BS',
     role: 'Software Engineer IV',
     expYr: '10+',
-    objective: `Creative front-end and BFF(Backend For Frontend) developer with 10+ years of work experience in developing web applications and embedded applications as per W3 Standards. Am interested to learn and leverage my expertise in full-stack development and the Google Cloud Platform. Onsite experience(Japan) to discuss the architecture and planning for the upcoming projects. Good exposure to AGILE and SCRUM methodologies.`,
+    objective: `Experienced Software Engineer with 10+ years of expertise in front-end development, 
+    Backend For Frontend (BFF), and full-stack solutions. Am interested to learn and leverage my expertise in
+    cloud technologies such as Google Cloud, Docker, and Kubernetes. Specializes in creating scalable, user-friendly applications 
+    with a focus on Monorepo, Micro-frontends, CI/CD automation, and modern web technologies. Onsite experience in Japan, collaborating with 
+    global teams to improve project architecture, streamline communication, and drive efficient development. Passionate about continuous 
+    learning and improving development processes in Agile environments.`,
     address: `26/b, 13th Cross Road, Pragathi Layout, Doddanekundi, Bangalore - 560037`,
     email: 'bsarunmca@gmail.com',
     contactNo: '+91 - 9739185574',
@@ -96,15 +101,14 @@ export default {
             responsibility: `As the UI Lead, Responsible for developing and work closely with peers and senior engineers/architects to deliver the optimal product, 
             focusing on front-end and back-end(BFF) development.  
             ensuring high-quality user experiences that align with business objectives.`,
-            environment: `ReactJS, Redux, NestJS, Node, Typescript, JavaScript, Micro Frontends, Monorepo, Lerna, Nx, HTML5, CSS3, GCP, Docker, Kubernetes, ArgoCD, GitHub, Jest, Webpack, monorepo, monolith,
+            environment: `ReactJS, Redux, NestJS, Node, Typescript, JavaScript, Micro Frontends, Monorepo, Monolith, Lerna, Nx, HTML5, CSS3, GCP, Docker, Kubernetes, ArgoCD, GitHub, Jest, Webpack,
                 JSON, MUI, GIT, etc...`,
             keyResponsibilities: [
-                `Developed and implemented new features and functionalities for banking applications [Payment, Template, Contacts, and Report module, etc...]`,
+                `Migrated a legacy Java application to ReactJS with Backend For Frontend (BFF) architecture, improving performance by 45% through optimized front-end rendering, reduced API calls, and better state management with ReactJS and Redux`,
                 `Worked with monorepo architecture to manage and scale multiple projects within a single repository, ensuring efficient dependency management and centralized build processes.`,
                 `Developed and maintained micro frontend architecture, breaking down large frontend applications into independent, reusable components that were integrated seamlessly into a unified user interface.`,
-                `Deployed containerized applications using Docker and Kubernetes on GKE clusters, using Kubernetes manifests and Helm charts to Automate configuration management and rollback strategies using Argo CD.`,
-                `Designed and configured CI/CD pipelines using GitHub CI/CD to automate code integration, testing, and deployment across multiple environments.`,
-                `Conducted code reviews and provided constructive feedback to improve code quality.`,
+                `Deployed containerized apps with Docker, Kubernetes, and GKE, automated configuration and rollback using Argo CD, and designed CI/CD pipelines with GitHub, ensuring efficient deployment`,
+                `Conducted code reviews and provided feedback to enhance code quality.`,
                 `Participated in Agile scrum meetings to track project progress and prioritize tasks.`,
             ],
         },
@@ -118,12 +122,9 @@ export default {
              `,
             environment: `ReactJS, Redux, ESLint, Python, HTML5, CSS3, jQuery, JavaScript, Webpack`,
             keyResponsibilities: [
-                `Developed user interfaces using ReactJS & Redux for MFP which has an embedded browser`,
-                `Review the legacy code thoroughly to understand its structure, functionality, and dependencies.`,
-                `Identify areas of the code that need improvement, such as outdated syntax, poor performance, or lack of documentation.`,
-                `Reduced application load times by 40% by converting legacy to react application`,
-                `Traveled to Japan(Onsite) to discuss the architecture, prioritize tasks, and support for offsite members and establish a 
-               communication bridge between Toshiba MSM and Toshiba TSIP.`,
+                `Developed embedded browser apps for MFP.`,
+                `Migrated legacy apps to ReactJS, boosting performance by 40%.`,
+                `Onsite experience in Japan for technical collaboration and team communication.`,
             ],
         },
         {
@@ -137,8 +138,7 @@ export default {
             environment: `HTML5, CSS3, Angularjs, jQuery, d3js, Requirejs, AJAX, JSON, NPM, Grunt, ESLint, Lesshint, JSInspect, Jasmine.`,
             keyResponsibilities: [
                 `Conducted code reviews and provided constructive feedback to improve code quality.`,
-                `New tool exploration and implementation as per the standard, got a spot award`,
-                `Fixing critical issues in the application and got a spot award for that.`,
+                `Awarded SPOT award for tool exploration and resolving critical issues.`,
             ],
         },
         {
@@ -150,9 +150,8 @@ export default {
             focusing on front-end development.`,
             environment: 'HTML5, CSS3, Bootstrap 3.0, JQuery, AJAX, JSON, Facebook API, Google plus API, Twiter API, & Linkedin API',
             keyResponsibilities: [
-                `Developed and implemented new features and functionalities based on client requirements.`,
-                `Implement responsive design principles and optimize applications for various devices and screen sizes.`,
-                `Integrate RESTful APIs and third-party libraries to fetch and display dynamic content on web pages.`,
+                `Built responsive web applications and integrated third-party APIs.`,
+                `Integrated third-party APIs (Facebook, Google+, Twitter, LinkedIn) to enhance functionality.`,
             ],
         },
     ],

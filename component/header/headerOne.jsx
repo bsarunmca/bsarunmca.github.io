@@ -34,7 +34,7 @@ const HeaderOne = () => {
                                 />
                             </div>
                         </li>
-                        <li className="firstSelectionIcon">
+                        {/* <li className="firstSelectionIcon">
                             <NavLink
                                 onClick={() => setMenuToggle(false)}
                                 exact
@@ -48,7 +48,7 @@ const HeaderOne = () => {
                                 />
                                 <span> Home </span>
                             </NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink
                                 onClick={() => setMenuToggle(false)}
@@ -101,11 +101,7 @@ const HeaderOne = () => {
                 >
                     <div className="body-cointainer">
                         <Switch>
-                            <Route
-                                exact
-                                path="/"
-                                component={FullImageContent}
-                            />
+                            <Route exact path="/" component={AboutMe} />
                             <Route exact path="/about" component={AboutMe} />
                             <Route exact path="/skills" component={Skills} />
                             <Route exact path="/resume" component={Resume} />
