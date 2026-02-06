@@ -44,6 +44,10 @@ export default {
             per: '40',
         },
         {
+            name: 'AI tools: Cursor, Clad',
+            per: '80',
+        },
+        {
             name: 'HTML, HTML5',
             per: '90',
         },
