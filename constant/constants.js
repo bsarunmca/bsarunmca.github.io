@@ -44,7 +44,7 @@ export default {
             per: '40',
         },
         {
-            name: 'AI tools: Cursor, Clad',
+            name: 'AI tools: Cursor, Clade',
             per: '80',
         },
         {
